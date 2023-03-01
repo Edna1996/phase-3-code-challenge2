@@ -1,5 +1,4 @@
-class Product < Activerecord::Base
-    class Product < ActiveRecord::Base
+class Product < ActiveRecord::Base
         has_many :reviews
         has_many :users, through: :reviews
     
